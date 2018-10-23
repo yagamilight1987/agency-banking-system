@@ -1,0 +1,70 @@
+{
+  "token": "asdfasdfasdlkfjasdfh8923pu4092pewufjao;iwehf239898ruaweio;fhawiuelfjkalwefhlwohef",
+  "userData": {
+    "userName": "johndoe",
+    "firstName": "John",
+    "lastName": "Doe"
+  },
+  "menuData": [
+    {
+      "link": "/landing/dashboard",
+      "icon": "fas fa-file-invoice",
+      "text": "Dashboard"
+    },
+    {
+      "link": "/landing/agent/search",
+      "icon": "fas fa-user-tie",
+      "text": "Agents"
+    },
+    {
+      "link": "/landing/customer/search",
+      "icon": "fas fa-users",
+      "text": "Customers"
+    },
+    {
+      "link": "/landing/transaction/search",
+      "icon": "fa fa-chart-bar",
+      "text": "Transactions"
+    },
+    {
+      "link": "/landing/approval/search",
+      "icon": "far fa-thumbs-up",
+      "text": "Approvals"
+    },
+    {
+      "link": "/landing/report",
+      "icon": "fas fa-file-invoice",
+      "text": "Reports"
+    },
+    {
+      "link": "/landing/system-setting/configuration",
+      "icon": "fas fa-cogs",
+      "text": "System Settings"
+    },
+    {
+      "link": "/landing/user/search",
+      "icon": "fas fa-lock",
+      "text": "Users"
+    },
+    {
+      "link": "/landing/role/search",
+      "icon": "fa fa-sitemap",
+      "text": "Roles"
+    },
+    {
+      "link": "/landing/picklist/configuration",
+      "icon": "fa fa-th-large",
+      "text": "Picklist"
+    },
+    {
+      "link": "/landing/currency/configuration",
+      "icon": "fas fa-dollar-sign",
+      "text": "Currrency"
+    },
+    {
+      "link": "/landing/audit/search",
+      "icon": "fas fa-search-plus",
+      "text": "Audit"
+    }
+  ]
+}

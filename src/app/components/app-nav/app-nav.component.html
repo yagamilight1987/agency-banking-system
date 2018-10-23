@@ -1,0 +1,14 @@
+<aside class="sidebar-container">
+  <ul class="sidebar-nav">
+    <li>
+      <h6 class="name"><i class="fas fa-piggy-bank"></i> Myanmar Bank</h6>
+    </li>
+    <li routerLinkActive="active"
+        *ngFor="let item of navItems">
+      <a [routerLink]="item.link">
+        <i *ngIf="item.icon"
+           [ngClass]="item.icon"></i>{{item.text}}
+      </a>
+    </li>
+  </ul>
+</aside>

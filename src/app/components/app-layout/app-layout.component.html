@@ -1,0 +1,19 @@
+<div id="wrapper"
+     class="main-wrapper"
+     #divWrapper>
+  <abs-app-header (menuToggler)="menuToggleClicked($event)"></abs-app-header>
+  <abs-app-nav [navItems]="navItems"></abs-app-nav>
+  <main class="content">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"
+            *ngFor="let item of routeData.breadcrumb">{{item}}</li>
+      </ol>
+    </nav>
+    <div class="title-block">
+      <h3 class="title">{{routeData.title}}</h3>
+    </div>
+    <router-outlet></router-outlet>
+  </main>
+  <abs-app-footer></abs-app-footer>
+</div>

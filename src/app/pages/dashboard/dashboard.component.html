@@ -1,0 +1,14 @@
+<div class="col-md-12">
+  <h4>Debit/Credit Bar Graph</h4>
+  <div style="display: block">
+    <canvas baseChart
+      height="100"
+      [datasets]="debitCreditBarChartDataSets"
+      [labels]="debitCreditBarChartLabels"
+      [options]="debitCreditBarChartOptions"
+      [legend]="debitCreditBarChartLegend"
+      [chartType]="debitCreditBarChartType"
+      (chartHover)="debitCreditBarChartHovered($event)"
+      (chartClick)="debitCreditBarChartClicked($event)"></canvas>
+  </div>
+</div>

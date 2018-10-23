@@ -1,0 +1,45 @@
+<header class="header">
+  <div class="pl-4">
+    <img src="assets/images/logo.png"
+         alt="Techmill"
+         class="logo">
+  </div>
+  <div class="header-block header-block-collapse d-lg-none d-xl-none">
+    <button class="collapse-btn"
+            id="menu-toggle"
+            (click)="menuToggler.emit()">
+      <i class="fa fa-bars"></i>
+    </button>
+  </div>
+  <div class="header-block header-block-buttons header-block-breadcrumb">
+    Agency Banking System
+  </div>
+  <div class="header-block header-block-nav pr-3">
+    <ul class="nav-profile">
+      <li>
+        <div ngbDropdown
+             class="d-inline-block">
+          <button class="profile btn btn-link"
+                  id="profileDropdown"
+                  ngbDropdownToggle>
+            <div class="img profile-pic">
+            </div>
+          </button>
+          <div ngbDropdownMenu
+               aria-labelledby="profileDropdown">
+            <a class="dropdown-item"
+               href="#">
+              <i class="fa fa-user icon"></i> Profile </a>
+            <a class="dropdown-item"
+               href="#">
+              <i class="fas fa-cog"></i> User Settings </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item"
+               (click)="logout()">
+              <i class="fa fa-power-off icon"></i> Logout </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</header>
