@@ -34,5 +34,4 @@ ts-node
 /**/*.css.shim.ts
 dll/
 
-/src/app/**/*.css
 ts-node-*
